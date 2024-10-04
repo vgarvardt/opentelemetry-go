@@ -19,7 +19,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - `FilterProcessor.Enabled` in `go.opentelemetry.io/otel/sdk/log/internal/x` now accepts `EnabledParameters` instead of `Record`. (#5791)
 - The `Record` type in `go.opentelemetry.io/otel/log` is no longer comparable. (#5847)
 - Reduce memory allocations for the `Event` and `Link` lists in `Span`. (#5858)
-- Performance improvements for `recordingSpan` `SetAttributes`. (#5864)
+- Performance improvements for the trace SDK `SetAttributes` method in `Span`. (#5864)
 
 ### Deprecated
 
